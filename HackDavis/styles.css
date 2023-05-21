@@ -57,6 +57,7 @@ body {
     padding: .5rem;
     font-weight: bold;
   }
+  
   .navbar-register {
     background-color: #96CEE1;
     border: 3px;
@@ -68,10 +69,61 @@ body {
     text-align: center;
     padding-top: 1px;
     font-weight: bold;
-
-    
-    
   }
+  
+  .hero {
+    background-color: #96CEE1;
+    padding-top: 2rem;
+    padding-left: 1.5rem;
+  }
+  
+  .hero-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .hero-text {
+    margin-right: 10px;
+  }
+  
+  .hero-text h5 {
+    margin-bottom: -22px; /* Reduce margin between lines */
+    font-size: smaller;
+  }
+  
+  .hero-text h6 {
+    margin-top: 0;
+  }
+  
+  .hero-content img {
+    height: 72px;
+    margin-left: auto;
+  }
+  
   span {
     font-weight: bold;
   }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  section div p {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .store-button {
+    margin: 0 10px;
+    padding: 8px 20px;
+    font-size: 12px;
+    background-color: #FEFBEA;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block; /* Add display property */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5) !important; /* Add shadow effect with !important */
+  }
+  
